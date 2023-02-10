@@ -1,0 +1,106 @@
+.qnaPage {
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 1920px;
+    height: 100%;
+	max-width: 1920px;
+	left: 50%;
+	transform: translate(-50%, 0);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+}
+
+.titleWrap {
+    width: 1920px;
+    height: 315px;
+    background-color: #0B3479;
+}
+
+.textbox1{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 83px;
+    font-size: 40px;
+}
+
+.line1{
+    color: #FFFFFF;
+    font-size: 90px;
+    text-align: center;
+}
+
+.textbox2{       
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -10px;
+    font-size: 23px;
+}   
+
+.navbar {
+    width: 1920px;
+    height: 103px;
+    font-size:0;
+    position:relative;
+    padding: 0;
+}
+
+.navbar .lionlogo{
+    position: relative;
+    width: 300px;
+    height: 54.85px;
+    margin-left:300px;
+    margin-top: 30px;
+    font-size: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    font-size: 0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar_menu li{
+    color:#0B3479;
+    font-size: 1.4rem;
+    float: left;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+
+.navbar_menu li:nth-child(2){
+    background-color: #0B3479;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:#ddd;
+
+}
+
+
+
+.footer {
+    background-color: #C8C8C8;
+    padding: 1em;
+    margin-top: 89px;
+    padding-top: 1.8em;
+    box-shadow: 0 0 0 0;
+    font-size: 19px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: black;
+    opacity: 0.8;
+}
