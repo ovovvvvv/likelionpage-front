@@ -1,13 +1,15 @@
-import Login from "./Login";
-import QnA from "./QnA";
+import React from "react";
 import Footer from "./components/Footer";
 import lionlogo from "./Assets/img/lionlogo.png";
+import Question from "./components/Question";
+import QnA from "./components/QnA";
 
 
 function App() {
+
   return (
-    <div>
-      <QnA />
+ <div id="load">
+  <QnA/>
     </div>
   );
 }
